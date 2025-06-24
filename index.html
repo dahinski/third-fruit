@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title without name</title>
+    <style>
+        body {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .init-phrase {
+            margin: 0;
+        }
+
+        .fruit-list {
+            align-items: center;
+        }
+
+        .fruit-item {
+            border-bottom: 1px solid black;
+            text-align: center;
+        }
+
+        .fruit-item:hover {
+            border-bottom: 1px solid brown;
+        }
+
+        .fruit-button {
+            color: white;
+            margin: 15px 0;
+            padding: 15px 30px;
+            background-color: green;
+            border: 3px solid black;
+            border-radius: 15px;
+            transition: .5s;
+        }
+
+        .fruit-button:hover {
+            cursor: pointer;
+            background-color: brown;
+            padding: 15px 50px;
+            transition: .5s;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="init-phrase">Choose</h1>
+    <h2 class="init-phrase">the</h2>
+    <h3 class="init-phrase">fruit</h3>
+    <h4 class="init-phrase">you</h4>
+    <h5 class="init-phrase">like</h5>
+    <h6 class="init-phrase">most</h6>
+    <ul class="fruit-list">
+        <li class="fruit-item">Apple</li>
+        <li class="fruit-item">Banana</li>
+        <li class="fruit-item">Orange</li>
+        <li class="fruit-item">Another</li>
+    </ul>
+    <button class="fruit-button">
+        Submit
+    </button>
+    <img src="https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Avocado" width="100px">
+</body>
+</html>
